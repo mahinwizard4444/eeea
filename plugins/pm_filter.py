@@ -761,35 +761,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
             InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
             ],[
+            InlineKeyboardButton("𝚅𝙸𝙳𝙴𝙾", callback_data='video'),
+            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'),
+            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes')
+           ,],[
             InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs'),
             InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
             InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data='nex1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="▣▢▢▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▢▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▣▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▣▣"
-        )
-        await query.message.edit_text(
-            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
-        )
-        await query.message.edit_text(
-            text="🆂🅰🅼🅰🅽🆃🅷🅰"
-        )
         await query.message.edit_text(          
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -797,39 +777,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "nex1":
         buttons = [[
-            InlineKeyboardButton("𝚅𝙸𝙳𝙴𝙾", callback_data='video'),
-            InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'),
-            InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes')
-           ,],[
+            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
+            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
+            InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss')
+            ],[
+            InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purges'),
+            InlineKeyboardButton('𝙿𝙸𝙽𝙶', callback_data='pings'),
+            InlineKeyboardButton('𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷', callback_data='tele')
+            ],[
             InlineKeyboardButton('𝙿𝚁𝙴𝚅', callback_data='help'),
             InlineKeyboardButton("𝙸𝙼𝙰𝙶𝙴", callback_data='image'),
             InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='nex2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="▣▢▢▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▢▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▣▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▣▣"
-        )
-        await query.message.edit_text(
-            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
-        )
-        await query.message.edit_text(
-            text="🆂🅰🅼🅰🅽🆃🅷🅰"
-        )
         await query.message.edit_text(          
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -837,39 +797,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "nex2":
         buttons = [[
-            InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun'), 
-            InlineKeyboardButton('𝙹𝚂𝙾𝙽𝙴', callback_data='son'),
-            InlineKeyboardButton('𝚃𝚃𝚂', callback_data='ttss')
+            InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂', callback_data='whois'),
+            InlineKeyboardButton('𝙼𝚄𝚃𝙴', callback_data='restric'),
+            InlineKeyboardButton('𝙺𝙸𝙲𝙺', callback_data='zombies')
+            ],[
+            InlineKeyboardButton('𝚁𝙴𝙿𝙾𝚁𝚃', callback_data='report'),
+            InlineKeyboardButton('𝚈𝚃-𝚃𝙷𝚄𝙼𝙱', callback_data='ytthumb'),
+            InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁-𝙸𝙳', callback_data='sticker')
             ],[
             InlineKeyboardButton('𝙿𝚁𝙴𝚅', callback_data='nex1'),
-            InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purges'),
+            InlineKeyboardButton('𝙲𝙾𝚅𝙸𝙳', callback_data='corona'),
             InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='nex3')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="▣▢▢▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▢▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▢▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▢▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▣▢"
-        )
-        await query.message.edit_text(
-            text="▣▣▣▣▣▣"
-        )
-        await query.message.edit_text(
-            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
-        )
-        await query.message.edit_text(
-            text="🆂🅰🅼🅰🅽🆃🅷🅰"
-        )
         await query.message.edit_text(          
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
