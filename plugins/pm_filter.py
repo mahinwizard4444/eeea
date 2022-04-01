@@ -765,9 +765,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙿𝙸𝙽', callback_data='pin'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='pastes')
            ,],[
-            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs'),
-            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),
             InlineKeyboardButton('𝙿𝚁𝙴𝚅', callback_data='start'),
+            InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='songs'),
+            InlineKeyboardButton('𝙴𝚇𝚃𝚁𝙰', callback_data='extra'),           
             InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data='nex1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -826,7 +826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata')
             ],[
             InlineKeyboardButton('𝙿𝚁𝙴𝚅', callback_data='nex2'),
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
+            InlineKeyboardButton('𝙷𝚘𝚖𝚎', callback_data='start'),
             InlineKeyboardButton('𝙲𝙻𝙾𝚂𝙴', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
