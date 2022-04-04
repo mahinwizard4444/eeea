@@ -1,6 +1,6 @@
 # (c) @Aadhi000
 
-from configs import Config
+from .info import info
 from .database import db
 from pyrogram import Client
 from pyrogram.types import Message
