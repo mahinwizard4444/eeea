@@ -5,11 +5,11 @@
   <b>𝚂𝙰𝙼𝙰𝙽𝚃𝙷𝙰 𝙸𝙼𝙳𝙱 𝙱𝙾𝚃</b>
 </h1>
 
-[![Stars](https://img.shields.io/github/stars/Samantha-a/Film-Club?style=flat-square&color=green)](https://github.com/Samantha-a/Film-Club/stargazers)
-[![Forks](https://img.shields.io/github/forks/Samantha-a/Film-Club?style=flat-square&color=blue)](https://github.com/Samantha-a/Film-Club/fork)
-[![Size](https://img.shields.io/github/repo-size/Samantha-a/Film-Club?style=flat-square&color=red)](https://github.com/Samantha-a/Film-Club/)   
-[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Samantha-a/Film-Club)   
-[![Contributors](https://img.shields.io/github/contributors/Samantha-a/Film-Club?style=flat-square&color=green)](https://github.com/Samantha-a/Film-Club/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/JD0011/Film-Club?style=flat-square&color=green)](https://github.com/JD0011/Film-Club/stargazers)
+[![Forks](https://img.shields.io/github/forks/JD0011/Film-Club?style=flat-square&color=blue)](https://github.com/JD0011/Film-Club/fork)
+[![Size](https://img.shields.io/github/repo-size/JD0011/Film-Club?style=flat-square&color=red)](https://github.com/JD0011/Film-Club/)   
+[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/JD0011/Film-Club)   
+[![Contributors](https://img.shields.io/github/contributors/JD0011/Film-Club?style=flat-square&color=green)](https://github.com/JD0011/Film-Club/graphs/contributors)
 ## Features
 
 - [x] Auto Filter
