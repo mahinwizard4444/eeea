@@ -47,7 +47,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Samantha-a/Film-Clubb">
+<a href="https://heroku.com/deploy?template=https://github.com/JD0011/Film-Club">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -56,7 +56,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Samantha-a/Film-Club
+git clone https://github.com/JD0011/Film-Club
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
