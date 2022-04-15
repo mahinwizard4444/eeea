@@ -15,6 +15,7 @@ requests
 googletrans==3.1.0a0
 telegraph
 beautifulsoup4
+aiohttp==3.7.4
 gTTS
 googletrans==3.1.0a0
 NumPy
@@ -23,6 +24,7 @@ opencv-python-headless
 youtube-search-python==1.4.6
 yt-dlp
 pypng
+Pillow
 wget
 aiofiles
 psutil
@@ -34,7 +36,6 @@ PyPDF2
 pyshorteners
 ffmpeg-python
 TgCrypto
-carbonnow==0.0.1
 py-tgcalls
 python-dotenv
 youtube_search_python
@@ -48,18 +49,3 @@ ffmpeg-python
 ffmpeg
 Pillow
 ujson
-parse-torrent-name
-bs4
-string-extract
-domain-extract
-hashtags_extract
-Pymoe
-pendulum
-pytesseract
-pyshorteners
-persondoesnotexist
-catdoesnotexist
-python-decouple
-speedtest-cli
-countryinfo
-
