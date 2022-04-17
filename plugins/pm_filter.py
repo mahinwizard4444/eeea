@@ -206,7 +206,7 @@ async def next_page(bot, query):
                                   callback_data="pages")]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="รαɱαɳƭɦα",url="https://t.me/Samanth_abot")]        
+            [InlineKeyboardButton(text="🤤 รαɱαɳƭɦα 🤤",url="https://t.me/Samanth_abot")]        
         )
     elif off_set is None:
         btn.append(
@@ -221,7 +221,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="รαɱαɳƭɦα",url="https://t.me/Samanth_abot")]             
+            [InlineKeyboardButton(text="🤤 รαɱαɳƭɦα 🤤",url="https://t.me/Samanth_abot")]             
         )
     try:
         await query.edit_message_reply_markup(
