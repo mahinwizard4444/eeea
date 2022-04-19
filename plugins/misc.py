@@ -124,7 +124,7 @@ async def who_is(client, message):
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_video(
+        await message.reply_photo(
             photo=local_user_photo,
             quote=True,
             reply_markup=reply_markup,
