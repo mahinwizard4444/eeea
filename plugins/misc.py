@@ -168,7 +168,7 @@ async def help(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
-            photo=random.choice(PICS),
+            video=random.choice(PICS),
             caption=script.HELP_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
