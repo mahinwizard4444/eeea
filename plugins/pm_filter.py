@@ -795,44 +795,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(text="𝖦𝗅𝗂𝗍𝖼𝗁", callback_data="glitch"),
             InlineKeyboardButton(text="𝖱𝖾𝗆𝗈𝗏𝖾 𝖡𝖦", callback_data="removebg")
             ],[
-            InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close_data")
-
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="▰▱▱▱▱▱▱▱▱▱ 10%"
-        )
-        await query.message.edit_text(
-            text="▰▰▱▱▱▱▱▱▱▱ 20%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▱▱▱▱▱▱▱ 30%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▱▱▱▱▱▱ 40%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▱▱▱▱▱ 50%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▱▱▱▱ 60%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▱▱▱ 70%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▱▱ 80%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▰▱ 90%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▰▰ 100%"
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="cσmplєtєd"
+            InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close_data"
         await query.message.edit_text(        
             text="Select your required mode from below!",
             reply_markup=reply_markup,
