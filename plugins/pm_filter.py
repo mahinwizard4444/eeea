@@ -796,6 +796,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(text="𝖱𝖾𝗆𝗈𝗏𝖾 𝖡𝖦", callback_data="removebg")
             ],[
             InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close_data")
+
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text="▰▱▱▱▱▱▱▱▱▱ 10%"
