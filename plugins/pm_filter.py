@@ -796,32 +796,42 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(text="𝖱𝖾𝗆𝗈𝗏𝖾 𝖡𝖦", callback_data="removebg")
             ],[
             InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close_data")
-        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▣▢▢▢▢▢"
+            text="▰▱▱▱▱▱▱▱▱▱ 10%"
         )
         await query.message.edit_text(
-            text="▣▣▢▢▢▢"
+            text="▰▰▱▱▱▱▱▱▱▱ 20%"
         )
         await query.message.edit_text(
-            text="▣▣▣▢▢▢"
+            text="▰▰▰▱▱▱▱▱▱▱ 30%"
         )
         await query.message.edit_text(
-            text="▣▣▣▣▢▢"
+            text="▰▰▰▰▱▱▱▱▱▱ 40%"
         )
         await query.message.edit_text(
-            text="▣▣▣▣▣▢"
+            text="▰▰▰▰▰▱▱▱▱▱ 50%"
         )
         await query.message.edit_text(
-            text="▣▣▣▣▣▣"
+            text="▰▰▰▰▰▰▱▱▱▱ 60%"
         )
         await query.message.edit_text(
-            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
+            text="▰▰▰▰▰▰▰▱▱▱ 70%"
         )
         await query.message.edit_text(
-            text="🆂🅰🅼🅰🅽🆃🅷🅰"
+            text="▰▰▰▰▰▰▰▰▱▱ 80%"
         )
+        await query.message.edit_text(
+            text="▰▰▰▰▰▰▰▰▰▱ 90%"
+        )
+        await query.message.edit_text(
+            text="▰▰▰▰▰▰▰▰▰▰ 100%"
+        )
+        await query.message.edit_text(
+            text="lσαdíng"
+        )
+        await query.message.edit_text(
+            text="cσmplєtєd"
         await query.message.edit_text(        
             text="Select your required mode from below!",
             reply_markup=reply_markup,
@@ -906,32 +916,42 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton(' 𝙷𝚘𝚖𝚎', callback_data='start'),
             InlineKeyboardButton(' 𝙲𝚕𝚘𝚜𝚎', callback_data='close_data')
-        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▣▢▢▢▢▢"
+            text="▰▱▱▱▱▱▱▱▱▱ 10%"
         )
         await query.message.edit_text(
-            text="▣▣▢▢▢▢"
+            text="▰▰▱▱▱▱▱▱▱▱ 20%"
         )
         await query.message.edit_text(
-            text="▣▣▣▢▢▢"
+            text="▰▰▰▱▱▱▱▱▱▱ 30%"
         )
         await query.message.edit_text(
-            text="▣▣▣▣▢▢"
+            text="▰▰▰▰▱▱▱▱▱▱ 40%"
         )
         await query.message.edit_text(
-            text="▣▣▣▣▣▢"
+            text="▰▰▰▰▰▱▱▱▱▱ 50%"
         )
         await query.message.edit_text(
-            text="▣▣▣▣▣▣"
+            text="▰▰▰▰▰▰▱▱▱▱ 60%"
         )
         await query.message.edit_text(
-            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
+            text="▰▰▰▰▰▰▰▱▱▱ 70%"
         )
         await query.message.edit_text(
-            text="🆂🅰🅼🅰🅽🆃🅷🅰"
+            text="▰▰▰▰▰▰▰▰▱▱ 80%"
         )
+        await query.message.edit_text(
+            text="▰▰▰▰▰▰▰▰▰▱ 90%"
+        )
+        await query.message.edit_text(
+            text="▰▰▰▰▰▰▰▰▰▰ 100%"
+        )
+        await query.message.edit_text(
+            text="lσαdíng"
+        )
+        await query.message.edit_text(
+            text="cσmplєtєd"
         await query.message.edit_text(          
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
