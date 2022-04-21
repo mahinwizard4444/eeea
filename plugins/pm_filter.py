@@ -211,17 +211,17 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🎭 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("𝙽𝙴𝚇𝚃 ››", callback_data=f"next_{req}_{key}_{n_offset}")])
+             InlineKeyboardButton("𝙽𝙴𝚇𝚃 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
                 InlineKeyboardButton("✶ 𝙱𝙰𝙲𝙺 ", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🎭 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("𝙽𝙴𝚇𝚃 ››", callback_data=f"next_{req}_{key}_{n_offset}")
-            ]
+                InlineKeyboardButton("𝙽𝙴𝚇𝚃 ➡️", callback_data=f"next_{req}_{key}_{n_offset}")
+            ],
         )
         btn.insert(0,
-            [InlineKeyboardButton(text="🤤 รαɱαɳƭɦα 🤤",url="https://t.me/Samanth_abot")]             
+            [InlineKeyboardButton(text="🤤 รαɱαɳƭɦα 🤤",url="https://t.me/Samanth_abot")]        
         )
     try:
         await query.edit_message_reply_markup(
@@ -795,47 +795,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(text="𝖦𝗅𝗂𝗍𝖼𝗁", callback_data="glitch"),
             InlineKeyboardButton(text="𝖱𝖾𝗆𝗈𝗏𝖾 𝖡𝖦", callback_data="removebg")
             ],[
-            InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close_data")  
-        ]]     
+            InlineKeyboardButton(text="𝖢𝗅𝗈𝗌𝖾", callback_data="close_data")
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▰▱▱▱▱▱▱▱▱▱ 10%"
+            text="▣▢▢▢▢▢"
         )
         await query.message.edit_text(
-            text="▰▰▱▱▱▱▱▱▱▱ 20%"
+            text="▣▣▢▢▢▢"
         )
         await query.message.edit_text(
-            text="▰▰▰▱▱▱▱▱▱▱ 30%"
+            text="▣▣▣▢▢▢"
         )
         await query.message.edit_text(
-            text="▰▰▰▰▱▱▱▱▱▱ 40%"
+            text="▣▣▣▣▢▢"
         )
         await query.message.edit_text(
-            text="▰▰▰▰▰▱▱▱▱▱ 50%"
+            text="▣▣▣▣▣▢"
         )
         await query.message.edit_text(
-            text="▰▰▰▰▰▰▱▱▱▱ 60%"
+            text="▣▣▣▣▣▣"
         )
         await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▱▱▱ 70%"
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
         )
         await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▱▱ 80%"
+            text="🆂🅰🅼🅰🅽🆃🅷🅰"
         )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▰▱ 90%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▰▰ 100%"
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="cσmplєtєd"
-        )
-        await query.message.edit_text(
-        text="Select your required mode from below!",
+        await query.message.edit_text(        
+            text="Select your required mode from below!",
             reply_markup=reply_markup,
             parse_mode='html'
         )
@@ -856,8 +844,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('‹‹ 𝙱𝙰𝙲𝙺', callback_data='start'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
             InlineKeyboardButton('𝙽𝙴𝚇𝚃 ››', callback_data='eth')
-        ]]     
-        reply_markup = InlineKeyboardMarkup(buttons)                    
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -920,7 +908,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(' 𝙲𝚕𝚘𝚜𝚎', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(                   
+        await query.message.edit_text(
+            text="▣▢▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▢▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▢▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▢▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣▢"
+        )
+        await query.message.edit_text(
+            text="▣▣▣▣▣▣"
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰"
+        )
+        await query.message.edit_text(
+            text="🆂🅰🅼🅰🅽🆃🅷🅰"
+        )
+        await query.message.edit_text(          
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -1002,7 +1014,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "video":
         buttons = [[
-            InlineKeyboardButton('✶ 𝙱𝙰𝙲𝙺 ✶', callback_data'help')
+            InlineKeyboardButton('✶ 𝙱𝙰𝙲𝙺 ✶', callback_data='song')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
