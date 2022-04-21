@@ -956,43 +956,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(' 𝙲𝚕𝚘𝚜𝚎', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="▰▱▱▱▱▱▱▱▱▱ 10%"
-        )
-        await query.message.edit_text(
-            text="▰▰▱▱▱▱▱▱▱▱ 20%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▱▱▱▱▱▱▱ 30%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▱▱▱▱▱▱ 40%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▱▱▱▱▱ 50%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▱▱▱▱ 60%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▱▱▱ 70%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▱▱ 80%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▰▱ 90%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▰▰ 100%"
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="cσmplєtєd"
-        )
-        await query.message.edit_text(          
+        await query.message.edit_text(                   
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
