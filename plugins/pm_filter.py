@@ -857,43 +857,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats'),
             InlineKeyboardButton('𝙽𝙴𝚇𝚃 ››', callback_data='eth')
         ]]     
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="▰▱▱▱▱▱▱▱▱▱ 10%"
-        )
-        await query.message.edit_text(
-            text="▰▰▱▱▱▱▱▱▱▱ 20%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▱▱▱▱▱▱▱ 30%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▱▱▱▱▱▱ 40%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▱▱▱▱▱ 50%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▱▱▱▱ 60%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▱▱▱ 70%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▱▱ 80%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▰▱ 90%"
-        )
-        await query.message.edit_text(
-            text="▰▰▰▰▰▰▰▰▰▰ 100%"
-        )
-        await query.message.edit_text(
-            text="lσαdíng"
-        )
-        await query.message.edit_text(
-            text="cσmplєtєd"
-        )             
+        reply_markup = InlineKeyboardMarkup(buttons)                    
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
