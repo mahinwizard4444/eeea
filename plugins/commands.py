@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 💠', url='https://t.me/+AMHw_K1wvOM3MTU9')
+                InlineKeyboardButton('💠 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 💠', url='https://t.me/+vrmR3oeOqQllMTM9')
             ],
             [
                 InlineKeyboardButton('💠 𝙾𝚠𝚗𝚎𝚛 💠', url='https://t.me/albintko')
@@ -57,7 +57,7 @@ async def start(client, message):
             InlineKeyboardButton(' 𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2')
             ],[
             InlineKeyboardButton(' 𝙾𝚠𝚗𝚎𝚛 ', url='https://t.me/albintko'),
-            InlineKeyboardButton(' 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            InlineKeyboardButton(' 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+vrmR3oeOqQllMTM9')
         ]]
         await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgUAAxkBAAEBB2liJjsNVSkfAy_OtYR0Q48dN_9DsAACGgIAAv68YVTI6jnmvnlZlh4E") 
@@ -109,7 +109,7 @@ async def start(client, message):
             InlineKeyboardButton(' 𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2')
             ],[
             InlineKeyboardButton(' 𝙾𝚠𝚗𝚎𝚛 ', url='https://t.me/albintko'),
-            InlineKeyboardButton(' 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+AMHw_K1wvOM3MTU9')
+            InlineKeyboardButton(' 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+vrmR3oeOqQllMTM9')
         ]]
         await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgUAAxkBAAEBB2liJjsNVSkfAy_OtYR0Q48dN_9DsAACGgIAAv68YVTI6jnmvnlZlh4E") 
