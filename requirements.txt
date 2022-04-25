@@ -9,7 +9,6 @@ requests
 bs4
 Pyromod
 imdbpy
-youtube-dl
 youtube_search
 requests
 googletrans==3.1.0a0
@@ -22,7 +21,6 @@ NumPy
 glitch_this
 opencv-python-headless
 youtube-search-python==1.4.6
-yt-dlp
 pypng
 Pillow
 wget
